@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple JavaScript Page</title>
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+
+    <p id="message">
+        Click the button to see my details.
+    </p>
+
+    <button onclick="showDetails()">
+        Show Details
+    </button>
+
+    <script>
+        function showDetails() {
+            document.getElementById("message").innerHTML =
+                "Name: Nabin Sharma <br> Course: Computer Science <br> Interest: Web Development";
+        }
+    </script>
+
+</body>
+
+</html>

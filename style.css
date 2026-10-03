@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    font-size: 16px;
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+ol, ul {
+    display: inline-block;
+    text-align: left;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
